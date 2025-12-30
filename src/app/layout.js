@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from '@/components/Footer';
+import PostHogProviderWrapper from './providers';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +24,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="flex min-h-screen flex-col">
+          <PostHogProviderWrapper>
+            <main className="flex-grow">{children}</main>
+            <Footer />
+          </PostHogProviderWrapper>
+        </div>
       </body>
     </html>
   );
