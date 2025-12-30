@@ -33,7 +33,7 @@ const travelers = [
     ],
     benefit: "We handle all logistics and options, letting you focus on decisions that matter.",
     cta: "Plan a Trip Without the Hassle",
-    ctaLink: "#inquiry"
+    ctaLink: "/plan-my-trip"
   },
   {
     title: "First-Time or Infrequent Travelers",
@@ -44,7 +44,7 @@ const travelers = [
     ],
     benefit: "Step-by-step guidance ensures nothing is left to chance.",
     cta: "Get Guided Planning Support",
-    ctaLink: "#inquiry"
+    ctaLink: "/plan-my-trip"
   },
   {
     title: "Honeymoons & Special Occasions",
@@ -55,7 +55,7 @@ const travelers = [
     ],
     benefit: "We design seamless, memorable trips tailored to your special moments.",
     cta: "Design a Special Trip",
-    ctaLink: "#inquiry"
+    ctaLink: "/plan-my-trip"
   },
   {
     title: "Families & Group Travel",
@@ -66,7 +66,7 @@ const travelers = [
     ],
     benefit: "One coordinated plan, designed for everyone.",
     cta: "Plan a Group Trip",
-    ctaLink: "#inquiry"
+    ctaLink: "/plan-my-trip"
   },
   {
     title: "Travelers Who Want Value, Not Guesswork",
@@ -77,7 +77,7 @@ const travelers = [
     ],
     benefit: "We optimize your trip for value, perks, and real quality.",
     cta: "Get Smart Travel Options",
-    ctaLink: "#inquiry"
+    ctaLink: "/plan-my-trip"
   }
 ];
 

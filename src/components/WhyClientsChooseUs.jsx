@@ -90,7 +90,7 @@ const WhyClientsChooseUs = () => {
       {/* CTA */}
       <div className="mt-16 flex justify-center">
         <motion.a
-          href="#inquiry"
+          href="/plan-my-trip"
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           className="inline-flex items-center gap-2 px-8 py-4 bg-white text-stone-900 font-medium rounded-full shadow-lg shadow-white/10 hover:bg-stone-100 transition-colors duration-300"
